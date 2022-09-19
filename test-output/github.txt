@@ -1,0 +1,15 @@
+for create...
+
+echo "# testfile" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abhi18chavhan/testfile.git
+git push -u origin main
+
+for push 
+
+git remote add origin https://github.com/abhi18chavhan/testfile.git
+git branch -M main
+git push -u origin main
