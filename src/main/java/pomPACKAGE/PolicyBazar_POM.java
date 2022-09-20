@@ -26,6 +26,7 @@ public class PolicyBazar_POM {
     public void view()
     {
     	lifeinsu.click();
+    	System.out.println("dusra wala hai");
 		
     }
      
