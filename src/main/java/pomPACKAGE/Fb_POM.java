@@ -90,6 +90,7 @@ public class Fb_POM {
        {
     	   Select s2=new Select(pronoun);
     			   s2.selectByVisibleText("He: \"Wish him a happy birthday!\"");
+    			   System.out.println("happy birthday");
        }
        
        public void submitpage()
