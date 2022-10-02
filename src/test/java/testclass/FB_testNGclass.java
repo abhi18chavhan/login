@@ -49,8 +49,9 @@ ExtentReports extent;
 		String ActualURL=driver.getCurrentUrl();
 		System.out.println("fb="+ActualURL);
 		String ExpectedURL="https://www.facebook.com/?stype=lo&jlou=AfcRTQu_k4YJjCzMI_Eiu98p1dj12NVNxyKBhIGipsD2x4KEYWo8vWIGKExK_zDKDshgJTcNZXjZAe57UuUEfnoFBMvPJhtstlmqeTHNcQh5OQ&smuh=52890&lh=Ac-XoEFPrbWkiaStdlY";
-		System.out.println(ActualURL);
-		Assert.assertEquals(ActualURL,ActualURL);
+		System.out.println(ExpectedURL);
+		Assert.assertEquals(ActualURL,ExpectedURL);
+		
 		//Assert.assertTrue(true);
 		Assert.assertFalse(false);
 	}

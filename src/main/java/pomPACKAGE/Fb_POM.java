@@ -89,7 +89,7 @@ public class Fb_POM {
        public void pronoun()
        {
     	   Select s2=new Select(pronoun);
-    			   s2.selectByVisibleText("He: \"Wish him a happy birthday!\"");
+    			   s2.selectByVisibleText("He: \"Wish him a  verry very happy birthday!\"");
     			   System.out.println("happy birthday");
        }
        
